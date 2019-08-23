@@ -60,7 +60,7 @@ To integrate with Hive, users need the following dependencies in their project.
 {% highlight xml %}
 <dependency>
   <groupId>org.apache.flink</groupId>
-  <artifactId>flink-connector-hive_{{ site.scala_version_suffix }}</artifactId>
+  <artifactId>flink-connector-hive{{site.scala_version_suffix}}</artifactId>
   <version>{{site.version}}</version>
   <scope>provided</scope>
 </dependency>
@@ -96,7 +96,7 @@ To integrate with Hive, users need the following dependencies in their project.
 {% highlight xml %}
 <dependency>
   <groupId>org.apache.flink</groupId>
-  <artifactId>flink-connector-hive_{{ site.scala_version_suffix }}</artifactId>
+  <artifactId>flink-connector-hive{{site.scala_version_suffix}}</artifactId>
   <version>{{site.version}}</version>
   <scope>provided</scope>
 </dependency>
